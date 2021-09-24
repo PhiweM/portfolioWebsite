@@ -11,7 +11,7 @@ body {
     
 }
 
-
+/*==== Cover Section ====*/
 .cover {
       background: url('../img/profile.JPG') ;
       height: 100vh;
@@ -94,7 +94,7 @@ body {
             letter-spacing: .1rem;
         }
 
-        .btn {
+        .portfolio-btn {
             width: 10rem;
             font-weight: 900;
             letter-spacing: .2rem;
@@ -103,14 +103,13 @@ body {
 
     .cover-socials {
         position: relative;
-        bottom: 5%;
-        right: -90%; 
+        bottom: 10%;
+        right: -85%; 
 
         a {
             font-size: 1.3rem;
             margin-right: .3rem;
             color: #ffffff;
-            opacity: .5;
         }
     }
 }
@@ -124,7 +123,7 @@ body {
 
 main {
     background: url('../img/3.jpg')  center no-repeat fixed;
-    filter: grayscale(100%);
+    // filter: grayscale(100%);
     .overlay-main {
         background-color: #00000038;
     }
@@ -134,13 +133,17 @@ main {
         // height: 100vh;
     }
     .cover-content-2{
-        box-shadow: -40px -2px 0px #1B1212, -40px 0px  black;
+        box-shadow: -40px -2px 0px #141414, -40px 0px  black;
         }
 
+
+
+
+        /*==== About Section ====*/
         .about-sect {
             color: #ffffff;
             .info {
-                background-color: #1B1212;
+                background-color: #141414;
                 border-radius: 5px;
                 padding: 5rem;
                 margin-left: 5rem;
@@ -155,7 +158,65 @@ main {
             }
 
             .card-deck .card {
-                color: black;
+                background: transparent;
+                border: none;
+
+                img {
+                   width: 4rem;
+                   position: relative;
+                   margin: 0 auto;
+                }
+
+                .card-title {
+                    font-family: $title-font;
+                    letter-spacing: .1rem;
+                    font-weight: 100;
+                }
             }
         }
+
+
+
+
+        /*==== Work Section ====*/
+        .work-sect {
+            color: #ffffff; 
+
+            .card-deck {
+                margin: 0 auto;
+
+                .card {
+                    background-color: #141414;
+                    border: 2px solid #141414;
+                    box-shadow: 0rem 0rem 2rem #0d0d0e;
+                    .card-title {
+                        font-family: $title-font;
+                        letter-spacing: .1rem;
+                        font-weight: 600;
+                    }
+
+                    a {
+                        width: 10rem;
+                        font-weight: 900;
+                        letter-spacing: .1rem;
+                    }
+                }
+            }
+        }
+}
+
+/*==== Work Section ====*/
+
+
+
+
+
+
+
+.show-all,
+.submit{
+  font-family: sans-serif!important;
+  padding: 10px 25px!important;
+  border-radius: 25px!important;
+  letter-spacing: 2px!important;
 }
