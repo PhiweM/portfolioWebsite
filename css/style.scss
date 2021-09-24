@@ -31,7 +31,7 @@ body {
       }
 
       .cover-content {
-      box-shadow: -40px -2px 0px black, -40px 0px  black;
+      box-shadow: -40px -2px 0px #1B1212, -40px 0px  black;
       }
 
     .navbar {
@@ -120,21 +120,42 @@ body {
     font-size: 7rem;
     font-weight: 900;    
 }
-.about-sect {
-    filter: grayscale(100%);
-    .info {
-        background-color: #252627;
-        color: #ffffff;
-        border-radius: 5px;
-        padding: 5rem;
-        margin-left: 5rem;
-    }
-}
+
 
 main {
-    background: url('../img/5.jpg')  center no-repeat fixed;
+    background: url('../img/3.jpg')  center no-repeat fixed;
     filter: grayscale(100%);
     .overlay-main {
-        background-color: #000000ee;
+        background-color: #00000038;
     }
+
+    .white-aside-2{
+        background-color: #ffffffef;
+        // height: 100vh;
+    }
+    .cover-content-2{
+        box-shadow: -40px -2px 0px #1B1212, -40px 0px  black;
+        }
+
+        .about-sect {
+            color: #ffffff;
+            .info {
+                background-color: #1B1212;
+                border-radius: 5px;
+                padding: 5rem;
+                margin-left: 5rem;
+
+                p {
+                    font-size: 1.4rem;
+                }
+            }
+
+            h2 {
+                padding-left: 10%;
+            }
+
+            .card-deck .card {
+                color: black;
+            }
+        }
 }
