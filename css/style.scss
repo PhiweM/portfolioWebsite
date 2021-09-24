@@ -7,12 +7,13 @@ $body-font: 'Advent Pro', sans-serif;
 body {
     font-family: $body-font;
     overflow-x: hidden;
-    background-color: #ffffffe8;
+    background-color: #F0F0F0;
+    
 }
 
 
 .cover {
-      background: url('../img/profile.JPG');
+      background: url('../img/profile.JPG') ;
       height: 100vh;
       background-size: cover;
       filter: grayscale(100%); 
@@ -30,7 +31,7 @@ body {
       }
 
       .cover-content {
-      box-shadow: -30px -2px 0px black, -30px 0px  black;
+      box-shadow: -40px -2px 0px black, -40px 0px  black;
       }
 
     .navbar {
@@ -80,9 +81,17 @@ body {
             padding-left:.5rem;
         }
 
-        h5 {
+        .desc {
+            display: flex;
+        }
+        .fa-code {
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+        p {
             font-size: 1.5rem;
             font-weight: 200;
+            letter-spacing: .1rem;
         }
 
         .btn {
@@ -109,8 +118,23 @@ body {
 .title {
     font-family: $title-font;
     font-size: 7rem;
-    
+    font-weight: 900;    
 }
 .about-sect {
-    
+    filter: grayscale(100%);
+    .info {
+        background-color: #252627;
+        color: #ffffff;
+        border-radius: 5px;
+        padding: 5rem;
+        margin-left: 5rem;
+    }
+}
+
+main {
+    background: url('../img/5.jpg')  center no-repeat fixed;
+    filter: grayscale(100%);
+    .overlay-main {
+        background-color: #000000ee;
+    }
 }
