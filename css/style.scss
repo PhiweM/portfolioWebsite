@@ -165,6 +165,11 @@ main {
                    width: 4rem;
                    position: relative;
                    margin: 0 auto;
+                   filter: grayscale(50%);
+                }
+
+                img:hover {
+                    filter: grayscale(0%);
                 }
 
                 .card-title {
