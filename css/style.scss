@@ -8,7 +8,13 @@ body {
     font-family: $body-font;
     overflow-x: hidden;
     background-color: #F0F0F0;
-    
+    color: #ffffff; 
+
+    a:hover {
+        background-color: #141414 !important;
+        text-decoration: none !important;
+        color: #ffffff !important;
+    }
 }
 
 /*==== Cover Section ====*/
@@ -210,8 +216,50 @@ main {
         }
 }
 
-/*==== Work Section ====*/
 
+/*==== Contact Section ====*/
+.contact-sect {
+    .info2 {
+        background-color: #141414;
+        border-radius: 5px;
+        padding: 5rem;
+        margin-left: 5rem;
+
+        p {
+            font-size: 1.4rem;
+        }
+
+         .btn {
+            width: 10rem;
+            font-weight: 900;
+            letter-spacing: .1rem;
+            font-family: $title-font;
+        }
+
+        .underline {
+            width: 50rem;
+            height: 2px;
+            background-color: #ffffff;
+        }
+        .sosh {
+            color: #141414;
+            background-color: #ffffff;
+            font-size: 1.3rem;
+            padding: .8rem;
+            border-radius: 5px;
+            font-family: $title-font !important;
+
+            i{
+                color: #000000;
+            }
+        }
+    }   
+}
+
+
+.end-text {
+    padding-top: 6rem;
+}
 
 
 
