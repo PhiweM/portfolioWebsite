@@ -193,6 +193,10 @@ main {
         .work-sect {
             color: #ffffff; 
 
+            h2 {
+                margin-left: -5rem;
+            }
+
             .card-deck {
                 margin: 0 auto;
 
@@ -219,6 +223,11 @@ main {
 
 /*==== Contact Section ====*/
 .contact-sect {
+
+    h2 {
+        margin-left: -5rem;
+    }
+        
     .info2 {
         background-color: #141414;
         border-radius: 5px;
