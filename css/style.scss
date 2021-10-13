@@ -32,6 +32,7 @@ body {
       .overlay {
           position: relative;
           height: 100vh;
+          width: 100vw;
           background-size: cover;
           background-color: #000000da;
       }
@@ -60,6 +61,7 @@ body {
 
     .headings {
 
+        margin-top: 7% !important;
         color: #ffffff;
         h4{
             font-weight: 400;
@@ -282,4 +284,99 @@ color: #ffffff;
 
 
 
+
+@media (max-width: 576px) { 
+
+    .cover .headings {
+        margin-top: 30% !important;
+            h4 {
+                font-weight: 200;
+                font-size: 1rem;
+            }
+
+            .firstname {
+                font-size: 5rem;
+                font-weight: 900;
+                letter-spacing: .1rem;
+                margin-top: -1rem;
+            }
+
+            .lastname {
+                font-size: 2rem;
+                font-family: "Stick No Bills",sans-serif;
+                margin-top: -1.6rem;
+                max-width: 8rem;
+                padding-left: .3rem;
+            }
+
+            h4 span {
+                font-size: 1.5rem;
+            }
+
+            p {
+                font-size: 1rem;
+                font-weight: 200;
+                letter-spacing: .1rem;
+            }
+
+            .fa-code {
+                font-size: 1rem;
+                font-weight: 600;
+            }
+    }
+
+    .cover-socials {
+        position: relative;
+        bottom: 10%;
+        left: 15%;
+    }
+
+    .about-sect {
+        .info {
+            padding: 2.5rem !important;
+            margin-left: 0rem !important;
+
+            p {
+                font-size: 1.3rem !important;
+            }
+        }
+    }
+
+    .work-sect {
+
+        h2 {
+            margin-left: 4rem !important;
+        }
+
+    }
+
+    .contact-sect {
+
+        h2 {
+            margin-left: 3rem;
+        }
+            
+        .info2 {
+            padding: 2.5rem;
+            margin-left: 0rem;
+    
+            p {
+                font-size: 1.3rem;
+            }
+    
+            .underline {
+                width: 110%;
+                height: 2px;
+                background-color: #ffffff;
+            }
+            .sosh {
+                font-size: .8rem;
+                font-weight: 800;
+                padding: .5rem;
+                border-radius: 5px;
+                
+            }
+        }   
+    }
+ }
 
